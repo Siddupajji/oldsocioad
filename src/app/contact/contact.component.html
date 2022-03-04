@@ -1,0 +1,146 @@
+<!-- <section>
+<div class="container">
+    <div class="contactinfo">
+        <div>
+            <h2>Contact Us</h2>
+            <ul class="info">
+                <li><span><img src="../../assets/Location icon.png"></span>
+                <span>102, Ecstasy C, Gulawani Maharaj Road, near BLOCK-2, Kothrud, Pune, Maharashtra 411038</span></li>
+
+            <li>
+                <span><img src="../../assets/Email icon.png"></span>
+                <span>info@socioad.com</span>
+            </li>
+            <li>
+                <span><img src="../../assets/Phone icon.png"></span>
+                <span>310-386-1623</span>
+            </li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="../../assets/">He</a></li>
+            <li><a href="#"><img src="../../assets/">He</a></li>
+            <li><a href="#"><img src="../../assets/">He</a></li>
+            <li><a href="#"><img src="../../assets/">He</a></li>
+            <li><a href="#"><img src="../../assets/">He</a></li>
+            <li><a href="#"><img src="../../assets/">He</a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="contactform">
+        <h2>Contact Form</h2>
+        <div class="formBox">
+            <div class="inputBox w50">
+                <input type="text" name="" required>
+                <span>First Name</span>
+            </div>
+            <div class="inputBox w50">
+                <input type="text" name="" required>
+                <span>Last Name</span>
+            </div>
+            <div class="inputBox w50">
+                <input type="text" name="" required>
+                <span>Email Address</span>
+            </div>
+            <div class="inputBox w50">
+                <input type="text" name="" required>
+                <span>Mobile Number</span>
+            </div>
+            <div class="inputBox w100">
+                <textarea name="" required></textarea>
+                <span>Write Your Message here</span>
+            </div>
+        </div>
+    </div>
+</div></section> -->
+
+
+<!-- <section class="container">
+    <h2>Contact Us</h2>
+</section>
+
+<section class="form">
+        <form>
+            <div class="form-holder">
+                <div class="myform">
+                    <div class="infodetail">
+                        <h2 class="text-white">Hello World</h2>
+                    </div>
+                    <div class="formcomponents">
+                        <div class="container">
+                            <h2 class="text-center mt-0">Contact-us</h2>
+                        </div>
+
+                        <input type="text" placeholder="Username" >
+
+                        <input type="text" placeholder="Write your email">
+
+                        <input type="number" placeholder="Write your Number">
+
+                        <textarea rows="4" cols="60" placeholder="Write your message"></textarea>
+                        <button class="btn btn-"></button>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </form>
+</section> -->
+<div class="wrapper">
+
+</div>
+
+<div class="container contact-heading">
+    <h1 class="text-center">Tell Us What Are You Looking For</h1>
+</div>
+
+
+
+<section class="formsection">
+    <section class="get-in-touch">
+        <h1 class="title">Get in touch</h1>
+        <form class="contact-form row" [formGroup]="socioform" (ngSubmit)="onSubmit()">
+            <div class="form-field col-lg-6">
+                <input id="name" class="input-text js-input" name="uname" formControlName="uname" type="text" required>
+                <label class="label" for="name">Name</label>
+            </div>
+
+
+            <div class="form-field col-lg-6 ">
+                <input id="email" class="input-text js-input" name="email" formControlName="email" type="email" required>
+                <label class="label" for="email">E-mail</label>
+            </div>
+            <div class="form-field col-lg-6 ">
+                <input id="company" class="input-text js-input" name="company" formControlName="company" type="text" required>
+                <label class="label" for="company">Company Name</label>
+            </div>
+            <div class="form-field col-lg-6 ">
+                <input id="phone" class="input-text js-input" name="number" formControlName="number" type="text" required>
+                <label class="label" for="phone">Contact Number</label>
+            </div>
+            <div class="form-field col-lg-12">
+                <input id="message" class="input-text js-input" name="message" formControlName="message" type="text" required>
+                <label class="label" for="message">Message</label>
+            </div>
+            <div class="form-field col-lg-12">
+                <input class="submit-btn" type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+</section>
+
+<input #newfood>
+<button (click)="do(newfood.value); newfood.value=''" class="btn btn-primary btn-sm">add</button>
+<ul *ngFor="let food of foods">
+    <li>{{food.id}}</li>
+    <li>{{food.name}}</li>
+    <li>{{food.select}}</li>
+</ul>
+
+<div class="col-md" id="map">
+    <iframe id="innermap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.635394887853!2d73.82064901436841!3d18.500167374627548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf0c775463eb%3A0x178eff51f12b6ef!2sSocio%20ad%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1640582791941!5m2!1sen!2sin"
+        width="1366" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>

@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+.wrapper {
+    margin: 0px;
+    width: 100vw;
+    height: 350px;
+    background: url("http://templates.thememodern.com/engitech/images/bg-pheader.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.webheading {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    padding: 2px 131px;
+    margin-top: 90px;
+}
+
+.webheading h1 {
+    font-size: 35px;
+    word-spacing: 7px;
+    width: 100%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 1em;
+    text-align: center;
+}
+
+.wrapper1 {
+    position: relative;
+    margin-top: 80px;
+    width: 100vw;
+    height: 100vh;
+    /* background: url(https://storage.googleapis.com/kaggle-datasets-images/8393/1277266/c458e23640cccd00ad2b184e1eddc72f/data-original.jpg?t=2020-06-24-15-23-49); */
+    background: url('../../assets/banners/web.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mobile-app {
+    background-image: url("http://templates.thememodern.com/engitech/images/background/bg-art-1.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+
+.mobile-app .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.app-benefits-left {
+    margin: 0 -30px 0 30px;
+    padding-bottom: 55px;
+}
+
+.app-benefits-left .icon-box {
+    text-align: center;
+    line-height: 1;
+    color: #7141b1;
+    float: right;
+}
+
+.app-benefits-left .icon-box span {
+    display: block;
+    font-size: 40px;
+}
+
+.app-benefits-left .content-box {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 75px;
+}
+
+.app-benefits-left .content-box h5 {
+    margin-bottom: 17px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    color: #1b1d21;
+    font-family: "Montserrat", sans-serif;
+}
+
+.middle img {
+    height: 450px;
+}
+
+.app-benefits-right {
+    margin: 0 30px 0 -30px;
+    padding-bottom: 55px;
+}
+
+.app-benefits-right .icon-box {
+    text-align: center;
+    line-height: 1;
+    color: #7141b1;
+    float: left;
+}
+
+.app-benefits-right .icon-box span {
+    display: block;
+    font-size: 40px;
+}
+
+.app-benefits-right .content-box {
+    text-align: left;
+    padding-left: 75px;
+    position: relative;
+}
+
+.app-benefits-right .content-box h5 {
+    margin-bottom: 17px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    color: #1b1d21;
+    font-family: "Montserrat", sans-serif;
+}
+
+.webcontent {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.webcontent .container-baner {
+    padding: 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 1440px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.webcontent .container-baner .text {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-right: 60px;
+    width: 50%;
+    padding-left: 105px;
+}
+
+.webcontent .container-baner img {
+    margin-top: 55px;
+    width: 500px;
+    height: 400px;
+}
+
+.webcontent .text .title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-transform: uppercase;
+    margin: 0 0 90px;
+    color: #3D3C36;
+    text-align: left;
+}
+
+.webcontent .text p {
+    margin-bottom: 25px;
+    text-align: left;
+    color: #999;
+    font-size: 1rem!important;
+    font-weight: 400!important;
+    line-height: 1.6!important;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.webcontent .text p .link-page {
+    display: inline-block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 48px;
+    height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3C3C36;
+    padding: 0 40px;
+    text-decoration: none;
+    border: 1px solid #39B54A;
+    border-radius: 24px;
+    letter-spacing: .5px;
+}
+
+.webcontent .col:nth-child(1) {
+    width: 100%;
+    padding: 60px;
+}
+
+.webcontent .webimage {
+    width: 40%;
+    padding: auto;
+    display: block;
+    margin: auto;
+}
+
+.webcontent h2 {
+    display: block;
+    font-size: 30px;
+}
+
+.webcontent .image img {
+    width: 400px;
+    height: 400px;
+}
+
+.webservices {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.whysocio {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px 90px;
+    margin-top: 45px;
+}
+
+.whysocio h2 {
+    font-size: 30px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.whysocio li {
+    line-height: 1.3em;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+.onlyboxes {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.onlyboxes .boxes .col img {
+    width: 450px;
+}
+
+.onlyboxes .boxes .box1 {
+    width: 450px;
+    background-color: rgb(140, 44, 204);
+    height: 300px;
+    margin-left: -20px;
+    padding: 83px 20px;
+}
+
+.onlyboxes .boxes .box1 h4 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Archivo Black';
+}
+
+.onlyboxes .boxes .box1 h3 {
+    color: white;
+}
+
+.onlyboxes .boxes .box2 {
+    width: 450px;
+    background-color: rgb(144, 83, 243);
+    height: 300px;
+    margin-left: -1px;
+    padding: 83px 20px;
+}
+
+.onlyboxes .boxes .box2 h4 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Archivo Black';
+}
+
+.onlyboxes .boxes .box2 h3 {
+    color: white;
+}
+
+#col2 {
+    margin-left: -20px;
+}
+
+#lastimg {
+    height: 300px;
+}
+
+.value {
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.value h3 {
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    margin-left: 50px;
+}
+
+.value li {
+    margin-left: 50px;
+    line-height: 1.3em;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+}

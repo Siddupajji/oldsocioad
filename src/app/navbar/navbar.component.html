@@ -1,0 +1,81 @@
+<!-- <section class="wrapper">
+    <header class="header1">
+        <div class="headercontent">
+
+            <h3>Are you need IT Support Engineer? Free Consultant</h3>
+
+
+            <div class="headercontact">
+                <mat-icon>call</mat-icon><span class="mb-1">+91 8208437954</span>
+                <mat-icon>email</mat-icon><span>Info@motivo.com </span>
+                <mat-icon>access_time</mat-icon><span>Mon - Fri: 9:00 - 6:00</span>
+                <mat-icon>call</mat-icon><a>+91 8208437954</a>
+                <mat-icon>email</mat-icon><a>Info@motivo.com</a>
+                <mat-icon>access_time</mat-icon><a>Mon - Fri: 9:00 - 6:00</a>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <nav class="container-fluid row">
+
+        <div class="col logo">
+            <img autoplay="true" src="assets/white.png">
+        </div>
+
+        <ul class="col maindrop" #maindrop>
+            <li class="colorit" type="button"><a routerLink="home">Home</a></li>
+            <li><a routerLink="about">About</a></li>
+
+            <li #services><a (click)="onServices()" routerLink="/video" class="dropdown">Services</a></li>
+            <div class="links" #dropdown *ngIf="yo">
+                <a routerLink="/web">WebSite Developement</a>
+                <a routerLink="/app">App Developement</a>
+                <a routerLink="/smm">Social Media Marketing</a>
+                <a routerLink="/photo">Photo & VideoGraphy</a>
+                <a routerLink="/logo">Graphic Design</a>
+            </div>
+            <li><a href="">Carrers</a></li>
+            <li><a routerLink="contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+</section> -->
+
+
+<section>
+
+    <div class="content-holder">
+        <div class="logo">
+            <img autoplay="true" src="assets/rebuilt.png">
+        </div>
+        <div class="hammenu">
+            <button class="btn btn-success btn-md">Get-in-touch</button>
+            <span class="material-icons" (click)="slowDown()">
+                menu
+                </span>
+        </div>
+
+
+    </div>
+    <div class="dropdownnav" id="dropdownnav">
+        <ul>
+            <li>
+                <a routerLink="/home">Home</a>
+            </li>
+            <li>
+                <a routerLink="/about">About</a>
+            </li>
+            <li>
+                <a routerLink="/video">Services</a>
+            </li>
+            <li>
+                <a>Contact</a>
+            </li>
+            <li>
+                <a>Blog</a>
+            </li>
+        </ul>
+    </div>
+</section>
